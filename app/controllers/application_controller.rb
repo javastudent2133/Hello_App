@@ -3,8 +3,8 @@ class ApplicationController < ActionController::Base
     render html: "hello, world!  ¡Hola, Mundo!!"
   end
 
-  def goodbye
-    render html: "Good bye, ciao!"
+  def ciao
+    render html: "Ciao Mondo! come Va?!"
   end
 
   def testing
